@@ -1,0 +1,27 @@
+{
+  "name": "transaction-test",
+  "version": "1.0.0",
+  "description": "tranaction tester",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "transaction-test": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timendainum/transaction-test.git"
+  },
+  "author": "Timendainnum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Timendainum/transaction-test/issues"
+  },
+  "homepage": "https://github.com/Timendainum/transaction-test#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "exec-timer": "0.0.9"
+  }
+}
